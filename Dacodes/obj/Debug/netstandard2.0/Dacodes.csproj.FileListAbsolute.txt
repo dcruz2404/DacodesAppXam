@@ -1,0 +1,8 @@
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\bin\Debug\netstandard2.0\Dacodes.deps.json
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\bin\Debug\netstandard2.0\Dacodes.dll
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\bin\Debug\netstandard2.0\Dacodes.pdb
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\obj\Debug\netstandard2.0\Dacodes.csproj.CoreCompileInputs.cache
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\obj\Debug\netstandard2.0\Dacodes.AssemblyInfoInputs.cache
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\obj\Debug\netstandard2.0\Dacodes.AssemblyInfo.cs
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\obj\Debug\netstandard2.0\Dacodes.dll
+C:\Users\CruzC\source\repos\VenadosTest\Dacodes\obj\Debug\netstandard2.0\Dacodes.pdb

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VenadosTest.Views.StadisticsPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
+            <ListView x:Name="StadisticsListView"
+                      SeparatorVisibility="Default"
+                      Grid.ColumnSpan="5"
+                      Grid.Row="1" Grid.Column="0"
+                      BackgroundColor="White"
+                      IsPullToRefreshEnabled="False" 
+                      ItemsSource="{Binding statistics}"
+                      HasUnevenRows="true">
+                <ListView.Header>
+                    <Grid BackgroundColor="DarkGray" 
+                          VerticalOptions="CenterAndExpand" 
+                          Margin="10" 
+                          Padding="1" 
+                          RowSpacing="1" 
+                          ColumnSpacing="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Tabla General" FontAttributes="Bold"
+                               FontSize="Small" TextColor="White" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="JJ" FontAttributes="Bold" Grid.Column="1" Grid.Row="0"
+                               FontSize="Small" TextColor="White" 
+                               HorizontalOptions="Center" VerticalOptions="Center" />
+                        <Label Text="DG" FontAttributes="Bold"
+                                FontSize="Small" TextColor="White" Grid.Column="2" Grid.Row="0"
+                                HorizontalOptions="Center" VerticalOptions="Center" />
+                        <Label Text="PTS" FontAttributes="Bold"
+                               FontSize="Small" TextColor="White" Grid.Column="3" Grid.Row="0"
+                               HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Grid>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid BackgroundColor="#76ad4a" 
+                                  VerticalOptions="CenterAndExpand" 
+                                  Margin="10" 
+                                  Padding="1" 
+                                  RowSpacing="1" 
+                                  ColumnSpacing="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="70" />
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="4*" />
+                                    <ColumnDefinition Width="5*" />
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="2*" />
+                                </Grid.ColumnDefinitions>
+                                <Label x:Name="Posicion"
+                                       VerticalOptions="FillAndExpand" 
+                                       HorizontalOptions="Start"
+                                       VerticalTextAlignment="Center" 
+                                       Text="{Binding position}"
+                                       Grid.Row="0" Grid.Column="0"
+                                       FontSize="Large" 
+                                       TextColor="White" />
+                                <Image x:Name="IEscudo" 
+                                       Source="{Binding image}"
+                                       Grid.Row="0" Grid.Column="1"
+                                       HeightRequest=" 60" 
+                                       WidthRequest="60" 
+                                       HorizontalOptions="Start" 
+                                       VerticalOptions="Center"/>
+                                <Label VerticalOptions="FillAndExpand" 
+                                       VerticalTextAlignment="Center" 
+                                       Grid.Row="0" Grid.Column="2"
+                                       Text="{Binding team}" 
+                                       HorizontalOptions="Start"
+                                       FontSize="Medium" 
+                                       TextColor="White" />
+                                <Label VerticalOptions="FillAndExpand" 
+                                       VerticalTextAlignment="Center" 
+                                       Text="{Binding games}"
+                                       Grid.Column="3" Grid.Row="0"
+                                       FontSize="Large" TextColor="White" />
+                                <Label VerticalOptions="FillAndExpand" 
+                                       VerticalTextAlignment="Center" 
+                                       Grid.Column="4" Grid.Row="0"
+                                       Text="{Binding score_diff}"
+                                       FontSize="Large" TextColor="White" />
+                                <Label VerticalOptions="FillAndExpand" 
+                                       VerticalTextAlignment="Center" 
+                                       Grid.Column="5" Grid.Row="0"
+                                       Text="{Binding points}"
+                                       FontSize="Large" TextColor="White" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

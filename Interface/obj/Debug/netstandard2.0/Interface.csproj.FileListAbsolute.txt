@@ -1,0 +1,12 @@
+C:\Users\CruzC\source\repos\VenadosTest\Interface\bin\Debug\netstandard2.0\Interface.deps.json
+C:\Users\CruzC\source\repos\VenadosTest\Interface\bin\Debug\netstandard2.0\Interface.dll
+C:\Users\CruzC\source\repos\VenadosTest\Interface\bin\Debug\netstandard2.0\Interface.pdb
+C:\Users\CruzC\source\repos\VenadosTest\Interface\bin\Debug\netstandard2.0\Dacodes.dll
+C:\Users\CruzC\source\repos\VenadosTest\Interface\bin\Debug\netstandard2.0\Dacodes.pdb
+C:\Users\CruzC\source\repos\VenadosTest\Interface\obj\Debug\netstandard2.0\Interface.csprojAssemblyReference.cache
+C:\Users\CruzC\source\repos\VenadosTest\Interface\obj\Debug\netstandard2.0\Interface.csproj.CoreCompileInputs.cache
+C:\Users\CruzC\source\repos\VenadosTest\Interface\obj\Debug\netstandard2.0\Interface.AssemblyInfoInputs.cache
+C:\Users\CruzC\source\repos\VenadosTest\Interface\obj\Debug\netstandard2.0\Interface.AssemblyInfo.cs
+C:\Users\CruzC\source\repos\VenadosTest\Interface\obj\Debug\netstandard2.0\Interface.csproj.CopyComplete
+C:\Users\CruzC\source\repos\VenadosTest\Interface\obj\Debug\netstandard2.0\Interface.dll
+C:\Users\CruzC\source\repos\VenadosTest\Interface\obj\Debug\netstandard2.0\Interface.pdb
